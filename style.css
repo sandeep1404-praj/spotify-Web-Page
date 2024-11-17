@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   background-color: black;
+   height: 13vh;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 19px;
+}
+nav li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.logo {
+    display: flex;
+    text-align: center;
+    margin-right: 70vw;
+}
+nav img{
+    height: 13vmin;
+
+}
+.container{
+  
+    background-color: black;
+    color: white;
+    height: 80vh;
+    margin: 24px ;
+    background-image: url("background\ music.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    text-align: center;
+    
+}
+.playlist{
+    display: flex;
+    justify-content: space-around;
+    width: 32%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    margin: 12px 24px;
+    border-radius: 12px;
+ 
+}
+.playlist img{
+    height: 58px;
+    border-radius: 50%;
+}
+.Icon{
+    font-size: 30px;
+}
+i:hover{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem ;
+
+}
+#progress{
+    width: 80vw;
+    text-align: center;
+}
+
+.bottom i {
+    color: white;
+    display: flex;
+    font-size: 23px;
+}
+.player{
+    display: flex;
+    gap: 15px;
+    height: 45px;
+}
